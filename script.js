@@ -16,7 +16,7 @@ navLinks.forEach(function(link) {
     });
 });
 
-var toggleBtn = document.getElementsByClassName("bi-list")[0];
+var toggleBtn = document.getElementById("navBardesktop");
 var navbar = document.getElementsByClassName("nav-bar")[0];
 var body = document.getElementsByClassName("body")[0];
 toggleBtn.addEventListener('click', function() {
